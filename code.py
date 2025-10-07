@@ -9,6 +9,10 @@ train_dir = "/kaggle/input/brain-tumor-classification-mri/Training"
 test_dir = "/kaggle/input/brain-tumor-classification-mri/Testing"
 
 # image size and parameters
+#nl : number of lines (height)
+#nc : number of columns (width)
+#nch: number of channels
+
 nl, nc, nch = 112, 112, 3
 batchsize = 32
 epochs = 5
