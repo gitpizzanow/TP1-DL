@@ -14,7 +14,7 @@ test_dir = "/kaggle/input/brain-tumor-classification-mri/Testing"
 #nch: number of channels
 
 nl, nc, nch = 112, 112, 3
-batchsize = 32
+batchsize = 32 # we’re using Mini-batch Gradient Descent, not pure stochastic.
 epochs = 5
 
 # data generators
